@@ -5,6 +5,7 @@ import PopularDestination from "./PopularDestination/PopularDestination";
 import Works from "./Works/Works";
 import Notification from "./Notification/Notification";
 import Testimony from "./Testimony/Testimony";
+import Footer from "./Footer/Footer";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Works />
       <Notification></Notification>
       <Testimony />
+      <Footer />
     </div>
   );
 };
