@@ -1,11 +1,14 @@
 import React from "react";
+import FindDestination from "../../Components/FindDestination/FindDestination";
 import Menu from "../../Components/Menu/Menu";
+import PopularDestination from "../../Components/PopularDestination/PopularDestination";
 
 const Home = () => {
   return (
     <div>
-        <Menu/>
-      <h1 className="text-3xl font-bold underline">Home</h1>;
+      <Menu />
+      <FindDestination />
+      <PopularDestination />
     </div>
   );
 };
