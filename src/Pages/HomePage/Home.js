@@ -1,8 +1,8 @@
 import React from "react";
-import FindDestination from "../../Components/FindDestination/FindDestination";
-import Menu from "../../Components/Menu/Menu";
-import PopularDestination from "../../Components/PopularDestination/PopularDestination";
-import Works from "../../Components/Works/Works";
+import FindDestination from "./FindDestination/FindDestination";
+import Menu from "./Menu/Menu";
+import PopularDestination from "./PopularDestination/PopularDestination";
+import Works from "./Works/Works";
 
 const Home = () => {
   return (
