@@ -6,10 +6,18 @@ import Works from "./Works/Works";
 import Notification from "./Notification/Notification";
 import Testimony from "./Testimony/Testimony";
 import Footer from "./Footer/Footer";
+import styled from "styled-components";
+import tw from "twin.macro";
+
+const HomeContainer = styled.div`
+  ${tw`
+    
+  `}
+`;
 
 const Home = () => {
   return (
-    <div>
+    <HomeContainer>
       <Menu />
       <FindDestination />
       <PopularDestination />
@@ -17,7 +25,7 @@ const Home = () => {
       <Notification></Notification>
       <Testimony />
       <Footer />
-    </div>
+    </HomeContainer>
   );
 };
 
