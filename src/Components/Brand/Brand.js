@@ -3,17 +3,30 @@ import tw from "twin.macro";
 import styled from "styled-components";
 
 const BrandContainer = styled.div`
-  ${tw``}
+  ${tw`
+    
+  `}
 `;
 
-const BrandName = styled.h3`
-  ${tw``}
+const BrandName = styled.h4`
+  ${tw`
+    text-primary-color
+    font-bold
+  `}
+`;
+const ColoredBrandName = styled.span`
+  ${tw`
+    text-secondary-color
+  `}
 `;
 
 const Brand = () => {
   return (
     <BrandContainer>
-      <BrandName>Travel Addis</BrandName>
+      <BrandName>
+        Travel
+        <ColoredBrandName> Addis</ColoredBrandName>
+      </BrandName>
     </BrandContainer>
   );
 };
