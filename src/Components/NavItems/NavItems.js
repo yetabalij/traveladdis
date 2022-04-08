@@ -29,16 +29,16 @@ const NavItems = () => {
     <NavItemsContainer>
       <NavItemUl>
         <NavItem>
-          <a href="#">Home</a>
+          <a href="/#">Home</a>
         </NavItem>
         <NavItem>
-          <a href="#">Services</a>
+          <a href="/#">Services</a>
         </NavItem>
         <NavItem>
-          <a href="#">About Us</a>
+          <a href="/#">About Us</a>
         </NavItem>
         <NavItem>
-          <a href="#">Contact Us</a>
+          <a href="/#">Contact Us</a>
         </NavItem>
       </NavItemUl>
     </NavItemsContainer>

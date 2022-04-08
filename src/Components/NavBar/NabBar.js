@@ -4,6 +4,7 @@ import styled from "styled-components";
 import Brand from "../Brand/Brand";
 import NavItems from "../NavItems/NavItems";
 import ContactUsBtn from "../ContactUsBtn/ContactUsBtn";
+import { useMediaQuery } from "react-responsive";
 
 const NavBarContainer = styled.div`
   ${tw`
@@ -16,13 +17,31 @@ const NavBarContainer = styled.div`
 `;
 
 const NabBar = () => {
-  return (
-    <NavBarContainer>
-      <Brand />
-      <NavItems />
-      <ContactUsBtn />
-    </NavBarContainer>
-  );
+  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 640px)" });
+  // return (
+  //   <NavBarContainer>
+  //     <Brand />
+  //     {/* <Brand />
+  //     <NavItems />
+  //     <ContactUsBtn /> */}
+  //     {isTabletOrMobile ? <>yes</> : <NavItems />}
+  //   </NavBarContainer>
+  if (isTabletOrMobile) {
+    return (
+      <NavBarContainer>
+        <Brand />
+        <>ok</>
+      </NavBarContainer>
+    );
+  } else {
+    return (
+      <NavBarContainer>
+        <Brand />
+        <NavItems />
+        <ContactUsBtn />
+      </NavBarContainer>
+    );
+  }
 };
 
 export default NabBar;
