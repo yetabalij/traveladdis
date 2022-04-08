@@ -5,6 +5,7 @@ import Brand from "../Brand/Brand";
 import NavItems from "../NavItems/NavItems";
 import ContactUsBtn from "../ContactUsBtn/ContactUsBtn";
 import { useMediaQuery } from "react-responsive";
+import MobileNave from "../MobileNave/MobileNave";
 
 const NavBarContainer = styled.div`
   ${tw`
@@ -18,19 +19,11 @@ const NavBarContainer = styled.div`
 
 const NabBar = () => {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 640px)" });
-  // return (
-  //   <NavBarContainer>
-  //     <Brand />
-  //     {/* <Brand />
-  //     <NavItems />
-  //     <ContactUsBtn /> */}
-  //     {isTabletOrMobile ? <>yes</> : <NavItems />}
-  //   </NavBarContainer>
   if (isTabletOrMobile) {
     return (
       <NavBarContainer>
         <Brand />
-        <>ok</>
+        <MobileNave />
       </NavBarContainer>
     );
   } else {
