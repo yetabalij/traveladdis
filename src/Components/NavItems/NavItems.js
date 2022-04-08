@@ -17,8 +17,8 @@ const NavItem = styled.li`
   ${tw`
     px-2
     sm:text-sm
-    lg:text-lg
-    2xl:text-xl
+    lg:text-base
+    2xl:text-lg
     text-primary-color
     font-medium
     hover:text-thersiary-color
