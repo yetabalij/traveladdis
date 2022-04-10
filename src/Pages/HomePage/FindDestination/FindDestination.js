@@ -98,10 +98,10 @@ const SectionTwo = styled.div`
     w-11/12
     m-auto
     mt-6
-    mb-8
+    mb-14
   `}
   img {
-    width: 9%;
+    width: 10%;
   }
 `;
 const FindDestination = () => {
