@@ -5,23 +5,25 @@ import Hotel1 from "./../../../assets/images/hotel1.png";
 
 const FindDestinationContainer = styled.div`
   ${tw`
-    my-2
+    
   `}
 `;
 
 const SectionOneContainer = styled.div`
   ${tw`
-    sm:flex
-    sm:justify-between
-    w-11/12
-    m-auto
-    my-2
+      w-11/12
+      m-auto
+      my-2
+      sm:grid 
+      sm:grid-cols-2
+      sm:gap-2
+      lg:gap-20
   `}
 `;
 
 const SectionOneLeft = styled.div`
   ${tw`
-    
+    mb-4
   `}
 `;
 
@@ -38,9 +40,11 @@ const YourDream = styled.h3`
   ${tw`
     text-primary-color
     font-bold
+    text-4xl
     sm:text-4xl
-    text-3xl
-    
+    md:text-5xl
+    lg:text-6xl
+    xl:text-7xl
   `}
 `;
 
@@ -74,11 +78,7 @@ const SelectCountry = styled.select`
 
 const SectionOneRight = styled.div`
   ${tw`
-    sm:pl-10
-    mt-2
-    pl-0
-    md:w-full
-    lg:w-3/5
+    
   `}
 `;
 const SectionTwo = styled.div`
