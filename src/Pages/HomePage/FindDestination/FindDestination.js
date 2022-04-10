@@ -2,6 +2,11 @@ import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 import Hotel1 from "./../../../assets/images/hotel1.png";
+import Google from "./../../../assets/images/google.png";
+import Facebook from "./../../../assets/images/facebook.png";
+import Paypal from "./../../../assets/images/paypal.png";
+import Dropbox from "./../../../assets/images/dropbox.png";
+import Amazon from "./../../../assets/images/amazon.png";
 
 const FindDestinationContainer = styled.div`
   ${tw`
@@ -15,7 +20,7 @@ const SectionOneContainer = styled.div`
       m-auto
       my-2
       sm:grid 
-      sm:grid-cols-2
+      sm:grid-cols-12
       sm:gap-2
       lg:gap-20
   `}
@@ -24,6 +29,7 @@ const SectionOneContainer = styled.div`
 const SectionOneLeft = styled.div`
   ${tw`
     mb-4
+    col-span-5
   `}
 `;
 
@@ -42,8 +48,8 @@ const YourDream = styled.h3`
     font-bold
     text-4xl
     sm:text-4xl
-    md:text-5xl
-    lg:text-6xl
+    md:text-4xl
+    lg:text-5xl
     xl:text-7xl
   `}
 `;
@@ -57,10 +63,11 @@ const Dream = styled.span`
 const FindDestinationText = styled.h6`
   ${tw`
     text-primary-color
-    leading-5
-    text-xs
-    font-medium
-    my-3
+    leading-6
+    text-base
+    font-normal
+    mt-6
+    mb-4
   `}
 `;
 
@@ -78,14 +85,24 @@ const SelectCountry = styled.select`
 
 const SectionOneRight = styled.div`
   ${tw`
-    
+    col-span-7
+    sm:ml-6
   `}
+  img {
+  }
 `;
 const SectionTwo = styled.div`
   ${tw`
+    flex
+    justify-between
     w-11/12
     m-auto
+    mt-6
+    mb-8
   `}
+  img {
+    width: 9%;
+  }
 `;
 const FindDestination = () => {
   return (
@@ -112,7 +129,13 @@ const FindDestination = () => {
           <img src={Hotel1} />
         </SectionOneRight>
       </SectionOneContainer>
-      <SectionTwo>Section Two</SectionTwo>
+      <SectionTwo>
+        <img src={Google} />
+        <img src={Facebook} />
+        <img src={Paypal} />
+        <img src={Dropbox} />
+        <img src={Amazon} />
+      </SectionTwo>
     </FindDestinationContainer>
   );
 };
