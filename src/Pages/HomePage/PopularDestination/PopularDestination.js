@@ -1,12 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
-import Hotel2 from "./../../../assets/images/hotel2.png";
-import Hotel3 from "./../../../assets/images/hotel3.png";
-import Hotel4 from "./../../../assets/images/hotel4.png";
-import Hotel5 from "./../../../assets/images/hotel5.png";
-import Hotel6 from "./../../../assets/images/hotel6.png";
-import Hotel7 from "./../../../assets/images/hotel7.png";
+// import Hotel2 from "./../../../assets/images/hotel2.png";
+// import Hotel3 from "./../../../assets/images/hotel3.png";
+// import Hotel4 from "./../../../assets/images/hotel4.png";
+// import Hotel5 from "./../../../assets/images/hotel5.png";
+// import Hotel6 from "./../../../assets/images/hotel6.png";
+// import Hotel7 from "./../../../assets/images/hotel7.png";
+import HotelsData from "./../../../data.json";
 
 const PopularDestinationContainer = styled.div`
   ${tw`
@@ -87,7 +88,7 @@ const PopularDestination = () => {
         </PopularDestinationText>
       </PopularDestinationTextContainer>
       <CardContainer>
-        <Card>
+        {/* <Card>
           <CardImage>
             <img src={Hotel2}></img>
           </CardImage>
@@ -108,7 +109,7 @@ const PopularDestination = () => {
         </CardImage>
         <CardImage>
           <img src={Hotel7}></img>
-        </CardImage>
+        </CardImage> */}
       </CardContainer>
     </PopularDestinationContainer>
   );
