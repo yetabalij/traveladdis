@@ -10,7 +10,8 @@ import Amazon from "./../../../assets/images/amazon.png";
 
 const FindDestinationContainer = styled.div`
   ${tw`
-    
+    mt-10
+    sm:mt-8
   `}
 `;
 
@@ -21,13 +22,20 @@ const SectionOneContainer = styled.div`
       my-2
       sm:grid 
       sm:grid-cols-12
-      sm:gap-2
-      lg:gap-20
+      sm:gap-1
+      md:gap-2
+      lg:gap-12
+      xl:gap-16
+      2xl:gap-32
+      2xl:mb-16
   `}
 `;
 
 const SectionOneLeft = styled.div`
   ${tw`
+    flex
+    flex-col
+    justify-center
     mb-4
     col-span-5
   `}
@@ -38,7 +46,9 @@ const FindYourDestination = styled.h6`
     text-secondary-color
     uppercase
     font-medium
-    text-xs
+    text-sm
+    2xl:text-xl
+    2xl:mt-8
     my-1
   `}
 `;
@@ -47,10 +57,12 @@ const YourDream = styled.h3`
     text-primary-color
     font-bold
     text-4xl
-    sm:text-4xl
+    sm:text-2xl
     md:text-4xl
     lg:text-5xl
-    xl:text-7xl
+    xl:text-6xl
+    2xl:text-7xl
+    2xl:mt-1
   `}
 `;
 
@@ -65,7 +77,12 @@ const FindDestinationText = styled.h6`
     text-primary-color
     leading-6
     text-base
+    2xl:text-xl
     font-normal
+    sm:mt-2
+    sm:mb-2
+    2xl:mt-8
+    2xl:mb-8
     mt-6
     mb-4
   `}
@@ -86,9 +103,10 @@ const SelectCountry = styled.select`
 const SectionOneRight = styled.div`
   ${tw`
     col-span-7
-    sm:ml-6
+    sm:ml-4
   `}
   img {
+    width: auto;
   }
 `;
 const SectionTwo = styled.div`
@@ -97,11 +115,15 @@ const SectionTwo = styled.div`
     justify-between
     w-11/12
     m-auto
-    mt-6
+    mt-4
+    sm:mt-3
+    md:mt-5
+    lg:mt-7
     mb-14
   `}
   img {
     width: 10%;
+    height: 100%;
   }
 `;
 const FindDestination = () => {
