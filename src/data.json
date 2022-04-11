@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "image": "images/hotel1.png",
+    "country": "Ethiopia",
+    "city": "Addis Abab",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar, elit in posuere dictum, arcu ante sodales lacus, et congue orci eros aliquam lacus. Pellentesque laoreet velit nec lectus aliquet maximus. Cras enim ante, condimentum ut lectus ut, mattis lacinia lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut mollis metus ipsum. Cras sollicitudin vestibulum enim, et porta leo varius eget. Proin quis tortor odio. Nunc elementum sapien sed euismod porttitor. Cras non feugiat felis."
+  },
+  {
+    "id": 2,
+    "image": "images/hotel2.png",
+    "country": "Kenya",
+    "city": "Nairobi",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar, elit in posuere dictum, arcu ante sodales lacus, et congue orci eros aliquam lacus. Pellentesque laoreet velit nec lectus aliquet maximus. Cras enim ante, condimentum ut lectus ut, mattis lacinia lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut mollis metus ipsum. Cras sollicitudin vestibulum enim, et porta leo varius eget. Proin quis tortor odio. Nunc elementum sapien sed euismod porttitor. Cras non feugiat felis."
+  },
+  {
+    "id": 3,
+    "image": "images/hotel3.png",
+    "country": "Japan",
+    "city": "Tokyo",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar, elit in posuere dictum, arcu ante sodales lacus, et congue orci eros aliquam lacus. Pellentesque laoreet velit nec lectus aliquet maximus. Cras enim ante, condimentum ut lectus ut, mattis lacinia lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut mollis metus ipsum. Cras sollicitudin vestibulum enim, et porta leo varius eget. Proin quis tortor odio. Nunc elementum sapien sed euismod porttitor. Cras non feugiat felis."
+  },
+  {
+    "id": 4,
+    "image": "images/hotel4.png",
+    "country": "Bangkonk",
+    "city": "Thailand",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar, elit in posuere dictum, arcu ante sodales lacus, et congue orci eros aliquam lacus. Pellentesque laoreet velit nec lectus aliquet maximus. Cras enim ante, condimentum ut lectus ut, mattis lacinia lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut mollis metus ipsum. Cras sollicitudin vestibulum enim, et porta leo varius eget. Proin quis tortor odio. Nunc elementum sapien sed euismod porttitor. Cras non feugiat felis."
+  },
+  {
+    "id": 5,
+    "image": "images/hotel5.png",
+    "country": "Canada",
+    "city": "Toronto",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar, elit in posuere dictum, arcu ante sodales lacus, et congue orci eros aliquam lacus. Pellentesque laoreet velit nec lectus aliquet maximus. Cras enim ante, condimentum ut lectus ut, mattis lacinia lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut mollis metus ipsum. Cras sollicitudin vestibulum enim, et porta leo varius eget. Proin quis tortor odio. Nunc elementum sapien sed euismod porttitor. Cras non feugiat felis."
+  },
+  {
+    "id": 6,
+    "image": "images/hotel6.png",
+    "country": "Sudan",
+    "city": "Khartoum",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar, elit in posuere dictum, arcu ante sodales lacus, et congue orci eros aliquam lacus. Pellentesque laoreet velit nec lectus aliquet maximus. Cras enim ante, condimentum ut lectus ut, mattis lacinia lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut mollis metus ipsum. Cras sollicitudin vestibulum enim, et porta leo varius eget. Proin quis tortor odio. Nunc elementum sapien sed euismod porttitor. Cras non feugiat felis."
+  }
+]
