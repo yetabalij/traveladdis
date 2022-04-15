@@ -23,10 +23,9 @@ const SectionOneContainer = styled.div`
       sm:grid 
       sm:grid-cols-12
       sm:gap-1
-      md:gap-2
-      lg:gap-12
-      xl:gap-16
-      2xl:gap-32
+      lg:gap-2
+      xl:gap-6
+      2xl:gap-10
       2xl:mb-16
   `}
 `;
@@ -35,7 +34,7 @@ const SectionOneLeft = styled.div`
   ${tw`
     flex
     flex-col
-    justify-center
+    //justify-center
     mb-4
     col-span-5
   `}
@@ -47,6 +46,8 @@ const FindYourDestination = styled.h6`
     uppercase
     font-medium
     text-sm
+    lg:text-xl
+    lg:mb-5
     2xl:text-xl
     2xl:mt-8
     my-1
@@ -77,10 +78,14 @@ const FindDestinationText = styled.h6`
     text-primary-color
     leading-6
     text-base
-    2xl:text-xl
+    lg:mt-5
+    lg:text-xl
+    xl:text-2xl
     font-normal
     sm:mt-2
     sm:mb-2
+    xl:mt-8
+    xl:mb-8
     2xl:mt-8
     2xl:mb-8
     mt-6
@@ -91,7 +96,10 @@ const FindDestinationText = styled.h6`
 const SelectCountry = styled.select`
   ${tw`
     px-24
-    py-2
+    py-3
+    lg:py-4
+    xl:py-5
+    lg:mt-2
     border-solid
     rounded-full
     border-2
@@ -106,7 +114,9 @@ const SectionOneRight = styled.div`
     sm:ml-4
   `}
   img {
-    width: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 `;
 const SectionTwo = styled.div`

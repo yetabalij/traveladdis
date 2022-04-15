@@ -12,9 +12,8 @@ const BrandName = styled.h6`
   ${tw`
     text-primary-color
     font-bold
-    lg:text-lg
-    xl:text-xl
-    2xl:text-2xl
+    md:text-2xl
+    2xl:text-3xl
   `}
 `;
 const ColoredBrandName = styled.span`
