@@ -2,6 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 import Add from "./../../../assets/images/Add.png";
+import Search from "./../../../assets/images/Search.png";
+import Send from "./../../../assets/images/Send.png";
+import Path1 from "./../../../assets/images/Path1.png";
+import Path2 from "./../../../assets/images/Path2.png";
 
 const WorkContainer = styled.div`
   ${tw`
@@ -50,11 +54,68 @@ const WorksContainer = styled.div`
 `;
 const SectionOne = styled.div`
   ${tw`
+    flex
+    justify-center
+    items-start
+    w-full
+    h-full
+    overflow-x-hidden
+  `}
+`;
+const ImageContainer = styled.div`
+  ${tw`
+    p-2
+  `}
+  img {
+  }
+`;
+const SectionTwo = styled.div`
+  ${tw`
+    flex
+    justify-between
+  `}
+`;
+const SingUpContainer = styled.div`
+  ${tw`
+    
+  `}
+`;
+const SignUpTitle = styled.h2`
+  ${tw`
   
   `}
 `;
-
-const SectionTwo = styled.div`
+const SignUpText = styled.h5`
+  ${tw`
+  
+  `}
+`;
+const SearchContainer = styled.div`
+  ${tw`
+    mt-10
+  `}
+`;
+const SearchTitle = styled.h2`
+  ${tw`
+  
+  `}
+`;
+const SearchText = styled.h5`
+  ${tw`
+  
+  `}
+`;
+const SendContainer = styled.div`
+  ${tw`
+    mt-20
+  `}
+`;
+const SendTitle = styled.h2`
+  ${tw`
+  
+  `}
+`;
+const SendText = styled.h5`
   ${tw`
   
   `}
@@ -68,8 +129,49 @@ const Works = () => {
         </HowItWorksUncolord>
       </HowItWorksContainer>
       <WorksContainer>
-        <SectionOne>Section One</SectionOne>
-        <SectionTwo>Section Two</SectionTwo>
+        <SectionOne>
+          <ImageContainer>
+            <img alt="" src={Add}></img>
+          </ImageContainer>
+          <ImageContainer>
+            <img alt="" src={Path1}></img>
+          </ImageContainer>
+          <ImageContainer>
+            <img alt="" src={Search}></img>
+          </ImageContainer>
+          <ImageContainer>
+            <img alt="" src={Path2}></img>
+          </ImageContainer>
+          <ImageContainer>
+            <img alt="" src={Send}></img>
+          </ImageContainer>
+        </SectionOne>
+        <SectionTwo>
+          <SingUpContainer>
+            <SignUpTitle>Sign UP</SignUpTitle>
+            <SignUpText>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+              pulvinar, elit in posuere dictum, arcu ante sodales, et congue
+              orci eros aliquam.
+            </SignUpText>
+          </SingUpContainer>
+          <SearchContainer>
+            <SearchTitle>Search</SearchTitle>
+            <SearchText>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+              pulvinar, elit in posuere dictum, arcu ante sodales, et congue
+              orci eros aliquam.
+            </SearchText>
+          </SearchContainer>
+          <SendContainer>
+            <SendTitle>Search</SendTitle>
+            <SendText>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+              pulvinar, elit in posuere dictum, arcu ante sodales, et congue
+              orci eros aliquam.
+            </SendText>
+          </SendContainer>
+        </SectionTwo>
       </WorksContainer>
     </WorkContainer>
   );
