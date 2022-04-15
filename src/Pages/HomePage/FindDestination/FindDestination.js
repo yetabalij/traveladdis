@@ -70,7 +70,6 @@ const YourDream = styled.h3`
 const Dream = styled.span`
   ${tw`
     text-secondary-color
-    
   `}
 `;
 const FindDestinationText = styled.h6`
