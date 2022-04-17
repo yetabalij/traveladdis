@@ -49,7 +49,8 @@ const HowItWorksColord = styled.span`
 
 const WorksContainer = styled.div`
   ${tw`
-    mt-10
+    mt-14
+    sm:mt-20
   `}
 `;
 const SectionOne = styled.div`
@@ -57,67 +58,124 @@ const SectionOne = styled.div`
     flex
     justify-center
     items-start
-    w-full
-    h-full
     overflow-x-hidden
   `}
 `;
 const ImageContainer = styled.div`
   ${tw`
-    p-2
+    
+  `}
+  img {
+    width: 70%;
+    height: 100%;
+  }
+`;
+const ImageContainer2 = styled.div`
+  ${tw`
+    
   `}
   img {
   }
 `;
+const ImageContainer3 = styled.div`
+  ${tw`
+    mt-10
+    lg:mt-20
+    lg:pl-5
+  `}
+  img {
+    width: 70%;
+    height: 100%;
+  }
+`;
+const ImageContainer4 = styled.div`
+  ${tw`
+    mt-12
+    lg:mt-16
+    overflow-hidden
+  `}
+  img {
+    transform: rotate(-10deg);
+  }
+`;
+const ImageContainer5 = styled.div`
+  ${tw`
+    mt-16
+    lg:mt-20
+  `}
+  img {
+    width: 70%;
+    height: 100%;
+  }
+`;
 const SectionTwo = styled.div`
   ${tw`
-    flex
-    justify-between
+    sm:flex
+    sm:justify-between
   `}
 `;
 const SingUpContainer = styled.div`
   ${tw`
-    
+    sm:pr-5
+    lg:pr-10
   `}
 `;
 const SignUpTitle = styled.h2`
   ${tw`
-  
+    text-primary-color
+    font-bold
+    sm:text-xl
+    md:text-2xl
+    lg:text-3xl
   `}
 `;
 const SignUpText = styled.h5`
   ${tw`
-  
+    text-primary-color
   `}
 `;
 const SearchContainer = styled.div`
   ${tw`
-    mt-10
+    mt-5
+    sm:mt-10
+    sm:pr-5
+    lg:pr-10
   `}
 `;
 const SearchTitle = styled.h2`
   ${tw`
-  
+    text-primary-color
+    font-bold
+    sm:text-xl
+    md:text-2xl
+    lg:text-3xl
   `}
 `;
 const SearchText = styled.h5`
   ${tw`
-  
+    text-primary-color
   `}
 `;
 const SendContainer = styled.div`
   ${tw`
-    mt-20
+    mt-5
+    sm:mt-20
+    sm:pr-5
+    lg:pr-2
   `}
 `;
 const SendTitle = styled.h2`
   ${tw`
-  
+    text-primary-color
+    font-bold
+    sm:text-xl
+    md:text-2xl
+    lg:text-3xl
   `}
 `;
 const SendText = styled.h5`
   ${tw`
-  
+    text-primary-color
   `}
 `;
 const Works = () => {
@@ -133,22 +191,22 @@ const Works = () => {
           <ImageContainer>
             <img alt="" src={Add}></img>
           </ImageContainer>
-          <ImageContainer>
+          <ImageContainer2>
             <img alt="" src={Path1}></img>
-          </ImageContainer>
-          <ImageContainer>
+          </ImageContainer2>
+          <ImageContainer3>
             <img alt="" src={Search}></img>
-          </ImageContainer>
-          <ImageContainer>
+          </ImageContainer3>
+          <ImageContainer4>
             <img alt="" src={Path2}></img>
-          </ImageContainer>
-          <ImageContainer>
+          </ImageContainer4>
+          <ImageContainer5>
             <img alt="" src={Send}></img>
-          </ImageContainer>
+          </ImageContainer5>
         </SectionOne>
         <SectionTwo>
           <SingUpContainer>
-            <SignUpTitle>Sign UP</SignUpTitle>
+            <SignUpTitle>Sign Up</SignUpTitle>
             <SignUpText>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
               pulvinar, elit in posuere dictum, arcu ante sodales, et congue
@@ -164,7 +222,7 @@ const Works = () => {
             </SearchText>
           </SearchContainer>
           <SendContainer>
-            <SendTitle>Search</SendTitle>
+            <SendTitle>Travel</SendTitle>
             <SendText>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
               pulvinar, elit in posuere dictum, arcu ante sodales, et congue
