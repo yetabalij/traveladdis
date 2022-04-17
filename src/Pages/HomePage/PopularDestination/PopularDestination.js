@@ -55,6 +55,7 @@ const PopularDestinationText = styled.h3`
 const CardContainer = styled.div`
   ${tw`
     grid
+    grid-cols-1
     sm:grid-cols-2
     sm:grid-rows-3
     md:grid-cols-3
@@ -115,7 +116,9 @@ const HotelDescription = styled.h5`
   ${tw`
     text-primary-color
     font-normal
-    text-lg
+    text-sm
+    md:text-base
+    lg:text-lg
   `}
 `;
 const PopularDestination = () => {
