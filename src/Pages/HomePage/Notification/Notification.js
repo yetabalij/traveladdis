@@ -1,7 +1,112 @@
 import React from "react";
+import tw from "twin.macro";
+import styled from "styled-components";
+
+const NotificationContainer = styled.div`
+  ${tw`
+    bg-gray-200
+    h-96
+    mb-10
+    overflow-x-hidden
+    relative
+  `}
+`;
+
+const SmallRectangle = styled.div`
+  ${tw`
+      bg-secondary-color
+      h-7
+      w-7
+      absolute
+      top-16
+      left-32
+  `}
+  transform: rotate(20deg)
+`;
+const SmallCircle = styled.div`
+  ${tw`
+      bg-secondary-color
+      h-7
+      w-7
+      rounded-full
+      absolute
+      bottom-16
+      left-36
+  `}
+`;
+
+const LargeRectangle = styled.div`
+  ${tw`
+      bg-primary-color
+      h-10
+      w-10
+      absolute
+      bottom-16
+      right-44
+  `}
+  transform: rotate(40deg)
+`;
+const MediumCircle = styled.div`
+  ${tw`
+      bg-primary-color
+      h-12
+      w-12
+      absolute
+      top-16
+      right-40
+      rounded-full
+  `}
+`;
+const LargeCircle = styled.div`
+  ${tw`
+      bg-secondary-color
+      h-40
+      w-40
+      absolute
+      top-6
+      right--14
+      rounded-full
+  `}
+`;
+
+const EmailInput = styled.input`
+  ${tw`
+      absolute
+      top-1/2
+      right-1/2
+      py-3
+      px-24
+      rounded-3xl
+  `}
+  transform: translate(50%, -50%);
+`;
+const ButtonStartFree = styled.button`
+  ${tw`
+    bg-secondary-color
+    text-white
+    z-10
+    absolute
+    top-1/2
+    right-1/2
+    py-2
+    px-8
+    rounded-3xl
+  `}
+  transform: translate(138%, -50%);
+`;
 
 const Notification = () => {
-  return <div>Notification</div>;
+  return (
+    <NotificationContainer>
+      <SmallRectangle />
+      <SmallCircle />
+      <LargeRectangle />
+      <MediumCircle />
+      <LargeCircle />
+      <EmailInput></EmailInput>
+      <ButtonStartFree>Start Free</ButtonStartFree>
+    </NotificationContainer>
+  );
 };
 
 export default Notification;
