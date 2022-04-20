@@ -8,8 +8,52 @@ const TestimonyContainer = styled.div`
     m-auto
   `}
 `;
+const TitleTextContainer = styled.div`
+  ${tw`
+    flex
+    justify-center
+    mb-5
+  `}
+`;
+const TitleUncolored = styled.h6`
+  ${tw`
+    text-3xl
+    sm:text-4xl
+    md:text-5xl
+    xl:text-6xl
+    text-primary-color
+    font-extrabold
+  `}
+`;
+const TitleColored = styled.span`
+  ${tw`
+    text-3xl
+    sm:text-4xl
+    md:text-5xl
+    xl:text-6xl
+    text-secondary-color
+    font-extrabold
+  `}
+`;
+const SliderContainer = styled.div`
+  ${tw`
+  
+  `}
+`;
+
 const Testimony = () => {
-  return <TestimonyContainer>Testimony</TestimonyContainer>;
+  return (
+    <TestimonyContainer>
+      <TitleTextContainer>
+        <TitleUncolored>
+          What Our Happy <TitleColored>Clients </TitleColored>Say?
+        </TitleUncolored>
+      </TitleTextContainer>
+      <SliderContainer>
+        
+      </SliderContainer>
+    </TestimonyContainer>
+  );
 };
 
 export default Testimony;
