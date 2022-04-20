@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 import HotelsData from "./../../../data.json";
-import { useState } from "react";
 
 const PopularDestinationContainer = styled.div`
   ${tw`
@@ -122,9 +121,9 @@ const HotelDescription = styled.h5`
   `}
 `;
 const PopularDestination = () => {
-  const hotelsData = HotelsData.map((hotel) => {
+  const hotelsData = HotelsData.map((hotel, cardid) => {
     return (
-      <Card>
+      <Card key={hotel.id}>
         <CardImage>
           <ImageContainer>
             <img alt="" src={hotel.image}></img>
