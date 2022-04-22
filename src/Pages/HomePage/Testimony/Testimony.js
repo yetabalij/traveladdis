@@ -41,6 +41,7 @@ const TestimonyContainer = styled.div`
     w-11/12
     mx-auto
     mt-20
+    mb-60
   `}
 `;
 const TitleTextContainer = styled.div`
