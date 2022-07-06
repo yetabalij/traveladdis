@@ -5,8 +5,9 @@ import styled from "styled-components";
 const NotificationContainer = styled.div`
   ${tw`
     bg-gray-200
-    h-96
-    mb-10
+    h-40
+    xl:h-96
+    xl:mb-10
     overflow-x-hidden
     relative
   `}
@@ -15,56 +16,76 @@ const NotificationContainer = styled.div`
 const SmallRectangle = styled.div`
   ${tw`
       bg-secondary-color
-      h-7
-      w-7
+      h-4
+      xl:h-7
+      w-4
+      xl:w-7
       absolute
-      top-16
-      left-32
+      top-6
+      xl:top-16
+      left-10
+      xl:left-32
   `}
   transform: rotate(20deg)
 `;
 const SmallCircle = styled.div`
   ${tw`
       bg-secondary-color
-      h-7
-      w-7
+      h-4
+      xl:h-7
+      w-4
+      xl:w-7
       rounded-full
       absolute
-      bottom-16
-      left-36
+      bottom-6
+      xl:bottom-16
+      left-10
+      xl:left-36
   `}
 `;
 
 const LargeRectangle = styled.div`
   ${tw`
       bg-primary-color
-      h-10
-      w-10
+      h-6
+      xl:h-10
+      w-6
+      xl:w-10
       absolute
-      bottom-16
-      right-44
+      bottom-6
+      xl:bottom-16
+      right-24
+      xl:right-44
   `}
   transform: rotate(40deg)
 `;
 const MediumCircle = styled.div`
   ${tw`
       bg-primary-color
-      h-12
-      w-12
+      h-6
+      xl:h-12
+      w-6
+      xl:w-12
       absolute
-      top-16
-      right-40
+      top-6
+      xl:top-16
+      right-20
+      xl:right-40
       rounded-full
   `}
 `;
 const LargeCircle = styled.div`
   ${tw`
       bg-secondary-color
-      h-40
-      w-40
+      h-24
+      xl:h-40
+      w-24
+      xl:w-40
       absolute
-      top-6
-      right--14
+      top-3
+      xl:top-6
+      right--16
+      xl:right--14
       rounded-full
   `}
 `;
