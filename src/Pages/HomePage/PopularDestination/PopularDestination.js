@@ -126,7 +126,7 @@ const PopularDestination = () => {
       <Card key={hotel.id}>
         <CardImage>
           <ImageContainer>
-            <img alt="" src={hotel.image}></img>
+            <img alt="hotels" src={hotel.image}></img>
           </ImageContainer>
           <TextContainer>
             <CountryCityTextContainer>

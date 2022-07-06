@@ -157,15 +157,15 @@ const FindDestination = () => {
           </SelectCountry>
         </SectionOneLeft>
         <SectionOneRight>
-          <img src={Hotel1} />
+          <img src={Hotel1} alt="hotel1" />
         </SectionOneRight>
       </SectionOneContainer>
       <SectionTwo>
-        <img src={Google} />
-        <img src={Facebook} />
-        <img src={Paypal} />
-        <img src={Dropbox} />
-        <img src={Amazon} />
+        <img src={Google} alt="google" />
+        <img src={Facebook} alt="facebook" />
+        <img src={Paypal} alt="paypal" />
+        <img src={Dropbox} alt="dropbox" />
+        <img src={Amazon} alt="amazon" />
       </SectionTwo>
     </FindDestinationContainer>
   );

@@ -165,7 +165,7 @@ const Testimony = (props) => {
           <CardContainer>
             <CardImage>
               <ImageContainer>
-                <img src={Customer1} />
+                <img src={Customer1} alt="other customer" />
               </ImageContainer>
               <StarsContainer>
                 <FontAwesomeIcon style={{ color: "#FFB300" }} icon={faStar} />
@@ -191,7 +191,7 @@ const Testimony = (props) => {
           <CardContainer>
             <CardImage>
               <ImageContainer>
-                <img src={Customer2} />
+                <img src={Customer2} alt="customer" />
               </ImageContainer>
               <StarsContainer>
                 <FontAwesomeIcon style={{ color: "#FFB300" }} icon={faStar} />
@@ -217,7 +217,7 @@ const Testimony = (props) => {
           <CardContainer>
             <CardImage>
               <ImageContainer>
-                <img src={Customer3} />
+                <img src={Customer3} alt="customer 3" />
               </ImageContainer>
               <StarsContainer>
                 <FontAwesomeIcon style={{ color: "#FFB300" }} icon={faStar} />
@@ -243,7 +243,7 @@ const Testimony = (props) => {
           <CardContainer>
             <CardImage>
               <ImageContainer>
-                <img src={Customer1} />
+                <img src={Customer1} alt="customer 1" />
               </ImageContainer>
               <StarsContainer>
                 <FontAwesomeIcon style={{ color: "#FFB300" }} icon={faStar} />
@@ -269,7 +269,7 @@ const Testimony = (props) => {
           <CardContainer>
             <CardImage>
               <ImageContainer>
-                <img src={Customer2} />
+                <img src={Customer2} alt="customer 2" />
               </ImageContainer>
               <StarsContainer>
                 <FontAwesomeIcon style={{ color: "#FFB300" }} icon={faStar} />
