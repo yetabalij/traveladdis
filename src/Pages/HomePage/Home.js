@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter, Routes } from "react-router-dom";
 import FindDestination from "./FindDestination/FindDestination";
 import Menu from "./Menu/Menu";
 import PopularDestination from "./PopularDestination/PopularDestination";
@@ -11,20 +12,23 @@ import tw from "twin.macro";
 
 const HomeContainer = styled.div`
   ${tw`
-    
+    relative
   `}
+  margin-top:5rem
 `;
 
 const Home = () => {
   return (
     <HomeContainer>
-      <Menu />
-      <FindDestination />
-      <PopularDestination />
-      <Works />
-      <Notification></Notification>
-      <Testimony />
-      <Footer />
+      <BrowserRouter>
+        <Menu />
+        <FindDestination />
+        <PopularDestination />
+        <Works />
+        <Notification />
+        <Testimony />
+        <Footer />
+      </BrowserRouter>
     </HomeContainer>
   );
 };
