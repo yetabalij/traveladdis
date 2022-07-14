@@ -55,6 +55,8 @@ const WorksContainer = styled.div`
 const ImageContainer = styled.div`
   ${tw`
     mb-3
+    flex
+    justify-center
   `}
 `;
 
