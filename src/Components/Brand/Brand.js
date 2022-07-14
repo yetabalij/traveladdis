@@ -10,7 +10,7 @@ const BrandContainer = styled.div`
 
 const BrandName = styled.h6`
   ${tw`
-    text-primary-color
+    text-white
     font-bold
     md:text-2xl
     2xl:text-3xl
