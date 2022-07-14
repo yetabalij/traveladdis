@@ -22,6 +22,7 @@ const NavItem = styled.li`
     text-white
     font-medium
     hover:text-thersiary-color
+    cursor-pointer
   `}
 `;
 const NavItems = () => {
