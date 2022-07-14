@@ -180,7 +180,7 @@ const SendText = styled.h5`
 `;
 const Works = () => {
   return (
-    <WorkContainer>
+    <WorkContainer id="works">
       <HowItWorksContainer>
         <HowItWorksUncolord>
           How <HowItWorksColord>Travel Addis</HowItWorksColord> Works?
