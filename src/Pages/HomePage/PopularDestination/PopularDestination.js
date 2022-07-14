@@ -142,7 +142,7 @@ const PopularDestination = () => {
   });
 
   return (
-    <PopularDestinationContainer>
+    <PopularDestinationContainer id="popular">
       <TilteContainer>
         <TitleUncolored>
           Our Popular <TitleColored>Destinations</TitleColored>

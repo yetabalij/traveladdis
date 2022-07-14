@@ -10,7 +10,7 @@ import Amazon from "./../../../assets/images/amazon.png";
 
 const FindDestinationContainer = styled.div`
   ${tw`
-    mt-10
+    mt-20
     sm:mt-8
   `}
 `;
