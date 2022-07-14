@@ -33,7 +33,7 @@ const Title = styled.h2`
 const Numbers = () => {
   return (
     <Container>
-      <div className="flex justify-between my-16">
+      <div className="flex justify-between xl:my-16 my-2">
         <NumberContainer>
           <Title>Addis Ababa</Title>
           <NumberCounter
