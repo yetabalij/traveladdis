@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import tw from "twin.macro";
 import styled from "styled-components";
 
@@ -29,20 +29,24 @@ const NavItems = () => {
     <NavItemsContainer>
       <NavItemUl>
         <NavItem>
-          <Link to="home" spane={true} smooth={true}>
+          <Link to="home" spy={true} smooth={true}>
             Home
           </Link>
         </NavItem>
         <NavItem>
-          <Link to="popular" spane={true} smooth={true}>
+          <Link to="popular" spy={true} smooth={true}>
             Destinations
           </Link>
         </NavItem>
         <NavItem>
-          <Link to="/#">Travel</Link>
+          <Link to="works" spy={true} smooth={true}>
+            Travel
+          </Link>
         </NavItem>
         <NavItem>
-          <Link to="/#">Testimony</Link>
+          <Link to="testmony" spy={true} smooth={true}>
+            Testimony
+          </Link>
         </NavItem>
       </NavItemUl>
     </NavItemsContainer>
