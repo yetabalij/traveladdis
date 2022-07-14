@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import styled from "styled-components";
 import tw from "twin.macro";
 
@@ -43,16 +44,24 @@ const MobNav = (props) => {
         </button>
         <ul>
           <MobLi>
-            <a href="/">Home</a>
+            <Link to="home" spy={true} smooth={true}>
+              Home
+            </Link>
           </MobLi>
           <MobLi>
-            <a href="/services">Services</a>
+            <Link to="popular" spy={true} smooth={true}>
+              Destinations
+            </Link>
           </MobLi>
           <MobLi>
-            <a href="/contactus">Contact Us</a>
+            <Link to="works" spy={true} smooth={true}>
+              Travel
+            </Link>
           </MobLi>
           <MobLi>
-            <a href="/aboutus">About Us</a>
+            <Link to="testmony" spy={true} smooth={true}>
+              Testimony
+            </Link>
           </MobLi>
         </ul>
       </MobNavContainer>
