@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import tw from "twin.macro";
 import styled from "styled-components";
 
@@ -10,7 +11,6 @@ const NavItemsContainer = styled.div`
 const NavItemUl = styled.ul`
   ${tw`
     flex
-    
   `}
 `;
 const NavItem = styled.li`
@@ -19,7 +19,7 @@ const NavItem = styled.li`
     sm:text-sm
     lg:text-base
     2xl:text-lg
-    text-primary-color
+    text-white
     font-medium
     hover:text-thersiary-color
   `}
@@ -29,16 +29,20 @@ const NavItems = () => {
     <NavItemsContainer>
       <NavItemUl>
         <NavItem>
-          <a href="/#">Home</a>
+          <Link to="home" spane={true} smooth={true}>
+            Home
+          </Link>
         </NavItem>
         <NavItem>
-          <a href="/#">Services</a>
+          <Link to="popular" spane={true} smooth={true}>
+            Destinations
+          </Link>
         </NavItem>
         <NavItem>
-          <a href="/#">About Us</a>
+          <Link to="/#">Travel</Link>
         </NavItem>
         <NavItem>
-          <a href="/#">Contact Us</a>
+          <Link to="/#">Testimony</Link>
         </NavItem>
       </NavItemUl>
     </NavItemsContainer>
