@@ -2,6 +2,7 @@ import React from "react";
 import FindDestination from "./FindDestination/FindDestination";
 import Menu from "./Menu/Menu";
 import PopularDestination from "./PopularDestination/PopularDestination";
+import Numbers from "./Numbers/Numbers";
 import Works from "./Works/Works";
 import Notification from "./Notification/Notification";
 import Testimony from "./Testimony/Testimony";
@@ -22,6 +23,7 @@ const Home = () => {
       <Menu />
       <FindDestination />
       <PopularDestination />
+      <Numbers />
       <Works />
       <Notification />
       <Testimony />
