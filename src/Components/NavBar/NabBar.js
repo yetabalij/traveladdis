@@ -14,7 +14,6 @@ const NavBarContainer = styled.div`
     m-auto
     flex
     justify-between
-    my-6
   `}
 `;
 
@@ -30,7 +29,7 @@ const NabBar = () => {
   };
   if (isTabletOrMobile) {
     return (
-      <NavBarContainer>
+      <NavBarContainer id="home">
         <Brand />
         <MobNav pressesd={pressed} closeHandler={closeHandler} />
         <button onClick={addPressed}>
@@ -44,6 +43,7 @@ const NabBar = () => {
               stroke-width="2"
             >
               <path
+                stroke="white"
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 d="M4 6h16M4 12h16M4 18h16"
