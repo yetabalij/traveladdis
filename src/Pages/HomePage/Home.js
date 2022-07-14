@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter, Routes } from "react-router-dom";
 import FindDestination from "./FindDestination/FindDestination";
 import Menu from "./Menu/Menu";
 import PopularDestination from "./PopularDestination/PopularDestination";
@@ -19,16 +18,14 @@ const HomeContainer = styled.div`
 
 const Home = () => {
   return (
-    <HomeContainer>
-      <BrowserRouter>
-        <Menu />
-        <FindDestination />
-        <PopularDestination />
-        <Works />
-        <Notification />
-        <Testimony />
-        <Footer />
-      </BrowserRouter>
+    <HomeContainer id="home">
+      <Menu />
+      <FindDestination />
+      <PopularDestination />
+      <Works />
+      <Notification />
+      <Testimony />
+      <Footer />
     </HomeContainer>
   );
 };
