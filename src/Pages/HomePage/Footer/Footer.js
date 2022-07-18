@@ -1,10 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee, faGoogle } from "@fortawesome/free-solid-svg-icons";
 
 const FooterContainer = styled.div`
   ${tw`
-    //mt-32
     relative
   `}
 `;
@@ -102,6 +103,7 @@ const Title = styled.h1`
 `;
 
 const Footer = () => {
+  const date = new Date();
   return (
     <FooterContainer>
       <ContactUsSection>
@@ -171,6 +173,28 @@ const Footer = () => {
             </div>
           </div>
         </FooterContentContainer>
+        <div className="w-11/12 mx-auto flex justify-center aligh-center mt-16">
+          <div className="mr-2 text-secondary-color">
+            <FontAwesomeIcon icon={faCoffee} />
+          </div>
+          <div className="mr-2 text-secondary-color">
+            <FontAwesomeIcon icon={["fal", "coffee"]} />
+          </div>
+          <div className="mr-2 text-secondary-color">
+            <FontAwesomeIcon icon={["fal", "coffee"]} />
+          </div>
+          <div className="mr-2 text-secondary-color">
+            <FontAwesomeIcon icon={faCoffee} />
+          </div>
+          <div className="mr-2 text-secondary-color">
+            <FontAwesomeIcon icon={["fab", "apple"]} />
+          </div>
+        </div>
+        <div className="flex justify-center align-center mt-3">
+          <p className="text-primary-color">
+            Copy Right &copy; Travel Ethiopia {date.getFullYear()}
+          </p>
+        </div>
       </FooterSection>
     </FooterContainer>
   );
