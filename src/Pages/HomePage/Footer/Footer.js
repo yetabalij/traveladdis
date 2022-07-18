@@ -2,7 +2,13 @@ import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee, faGoogle } from "@fortawesome/free-solid-svg-icons";
+import {
+  faLinkedin,
+  faTwitch,
+  faInstagram,
+  faTwitter,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 
 const FooterContainer = styled.div`
   ${tw`
@@ -173,21 +179,21 @@ const Footer = () => {
             </div>
           </div>
         </FooterContentContainer>
-        <div className="w-11/12 mx-auto flex justify-center aligh-center mt-16">
+        <div className="w-11/12 mx-auto flex justify-center aligh-center mt-10">
           <div className="mr-2 text-secondary-color">
-            <FontAwesomeIcon icon={faCoffee} />
+            <FontAwesomeIcon icon={faLinkedin} />
           </div>
           <div className="mr-2 text-secondary-color">
-            <FontAwesomeIcon icon={["fal", "coffee"]} />
+            <FontAwesomeIcon icon={faInstagram} />
           </div>
           <div className="mr-2 text-secondary-color">
-            <FontAwesomeIcon icon={["fal", "coffee"]} />
+            <FontAwesomeIcon icon={faTwitch} />
           </div>
           <div className="mr-2 text-secondary-color">
-            <FontAwesomeIcon icon={faCoffee} />
+            <FontAwesomeIcon icon={faTwitter} />
           </div>
           <div className="mr-2 text-secondary-color">
-            <FontAwesomeIcon icon={["fab", "apple"]} />
+            <FontAwesomeIcon icon={faYoutube} />
           </div>
         </div>
         <div className="flex justify-center align-center mt-3">
