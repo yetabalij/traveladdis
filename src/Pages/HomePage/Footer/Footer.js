@@ -78,6 +78,8 @@ const FooterSection = styled.div`
 const FooterContentContainer = styled.div`
   ${tw`
     flex
+    sm:flex-row
+    flex-col
     items-center
     justify-between
     w-11/12
@@ -127,22 +129,47 @@ const Footer = () => {
             <span className="text-2xl font-bold text-secondary-color">
               Addis
             </span>
-            <p className="basis-1/4 w-2/3 mt-3">
+            <p className="basis-1/4 w-4/5 mt-3 text-primary-color">
               In occaecat esse dolore irure exercitation magna dolor officia
               nostrud.Amet ad dolor cupidatat cillum anim ullamco dolor do
               reprehenderit fugiat.
             </p>
           </div>
-          <div className="basis-1/4">
-            <span className="text-md font-bold text-primary-color">Home</span>
-          </div>
-          <div className="basis-1/4">
-            <span className="text-md font-bold text-primary-color">
-              Destination
-            </span>
-          </div>
-          <div className="basis-1/4">
-            <span className="text-md font-bold text-primary-color">Travel</span>
+          <div className="basis-3/4 flex mt-5">
+            <div className="basis-1/3 mr-2">
+              <span className="text-md font-bold text-primary-color">Home</span>
+              <ul className="text-primary-color mt-2">
+                <li className="cursor-pointer">Appirance</li>
+                <li className="cursor-pointer">Content</li>
+                <li className="cursor-pointer">How it Works?</li>
+                <li className="cursor-pointer">Sell</li>
+                <li className="cursor-pointer">Guide</li>
+              </ul>
+            </div>
+            <div className="basis-1/3 mr-2">
+              <span className="text-md font-bold text-primary-color">
+                Destination
+              </span>
+              <ul className="text-primary-color mt-2">
+                <li className="cursor-pointer">Appirance</li>
+                <li className="cursor-pointer">Content</li>
+                <li className="cursor-pointer">How it Works?</li>
+                <li className="cursor-pointer">Sell</li>
+                <li className="cursor-pointer">Guide</li>
+              </ul>
+            </div>
+            <div className="basis-1/3 mx-2">
+              <span className="text-md font-bold text-primary-color">
+                Travel
+              </span>
+              <ul className="text-primary-color mt-2">
+                <li className="cursor-pointer">Appirance</li>
+                <li className="cursor-pointer">Content</li>
+                <li className="cursor-pointer">How it Works?</li>
+                <li className="cursor-pointer">Sell</li>
+                <li className="cursor-pointer">Guide</li>
+              </ul>
+            </div>
           </div>
         </FooterContentContainer>
       </FooterSection>
