@@ -68,11 +68,22 @@ const Phonetext = styled.h4`
     text-white
   `}
 `;
+
 const FooterSection = styled.div`
   ${tw`
     bg-gray-200
   `}
   min-height: 600px;
+`;
+const FooterContentContainer = styled.div`
+  ${tw`
+    flex
+    items-center
+    justify-between
+    w-11/12
+    m-auto  
+  `}
+  padding-top:14rem
 `;
 const TitleContainer = styled.div`
   ${tw`
@@ -107,7 +118,34 @@ const Footer = () => {
           </PhoneContainer>
         </ContactsSection>
       </ContactUsSection>
-      <FooterSection>some random contents</FooterSection>
+      <FooterSection>
+        <FooterContentContainer>
+          <div>
+            <span className="text-2xl font-bold text-primary-color">
+              Travel
+            </span>{" "}
+            <span className="text-2xl font-bold text-secondary-color">
+              Addis
+            </span>
+            <p className="basis-1/4 w-2/3 mt-3">
+              In occaecat esse dolore irure exercitation magna dolor officia
+              nostrud.Amet ad dolor cupidatat cillum anim ullamco dolor do
+              reprehenderit fugiat.
+            </p>
+          </div>
+          <div className="basis-1/4">
+            <span className="text-md font-bold text-primary-color">Home</span>
+          </div>
+          <div className="basis-1/4">
+            <span className="text-md font-bold text-primary-color">
+              Destination
+            </span>
+          </div>
+          <div className="basis-1/4">
+            <span className="text-md font-bold text-primary-color">Travel</span>
+          </div>
+        </FooterContentContainer>
+      </FooterSection>
     </FooterContainer>
   );
 };
