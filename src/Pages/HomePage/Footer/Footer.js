@@ -11,7 +11,7 @@ const FooterContainer = styled.div`
 const ContactUsSection = styled.div`
   ${tw`
     h-60
-    w-3/4
+    w-10/12
     md:w-3/4
     xl:w-3/5
     mx-auto
@@ -20,8 +20,7 @@ const ContactUsSection = styled.div`
     left-1/2
     flex
     flex-col
-    //justify-center
-    //items-center
+    overflow-x-hidden
   `}
   transform: translate(-50%,-50%)
 `;
