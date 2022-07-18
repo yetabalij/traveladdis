@@ -11,7 +11,9 @@ const FooterContainer = styled.div`
 const ContactUsSection = styled.div`
   ${tw`
     h-60
-    w-2/4
+    w-3/4
+    md:w-3/4
+    xl:w-3/5
     mx-auto
     bg-primary-color
     absolute
