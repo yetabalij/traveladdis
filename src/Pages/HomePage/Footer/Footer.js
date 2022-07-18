@@ -28,8 +28,6 @@ const ContactsSection = styled.div`
   ${tw`
     flex
     justify-around
-    //justify-between
-    //justify-center
     mt-7
   `}
 `;
@@ -130,7 +128,7 @@ const Footer = () => {
             <span className="text-2xl font-bold text-secondary-color">
               Addis
             </span>
-            <p className="basis-1/4 w-4/5 mt-3 text-primary-color">
+            <p className="basis-1/4 w-full sm:w-4/5 mt-3 text-primary-color">
               In occaecat esse dolore irure exercitation magna dolor officia
               nostrud.Amet ad dolor cupidatat cillum anim ullamco dolor do
               reprehenderit fugiat.
